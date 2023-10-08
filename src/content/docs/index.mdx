@@ -1,0 +1,30 @@
+---
+title: Welcome to the BBC Fans wiki!
+description: Welcome along! This is the home of information on your favourite BBC branding, presenters and programmes.
+template: splash
+hero:
+  tagline: Welcome along! This is the home of information on your favourite BBC branding, presenters and programmes.
+  image:
+    file: ../../assets/icon.gif
+  actions:
+    - text: Start Reading
+      link: /wiki/explore
+      icon: right-arrow
+      variant: primary
+    - text: Join the Discord
+      link: https://discord.gg/PMQEnTxZxa
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Next steps
+
+<CardGrid stagger>
+	<Card title="Know some credible and missing details?" icon="pencil">
+		Don't hesitate to add them in!
+	</Card>
+	<Card title="Don't worry, we proofread every change!" icon="add-document">
+		Just read our [short list of guidelines](/wiki/special/guidelines).
+	</Card>
+</CardGrid>
