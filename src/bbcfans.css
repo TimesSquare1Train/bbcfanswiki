@@ -27,3 +27,11 @@
 	--sl-color-gray-7: #f5f6fd;
 	--sl-color-black: #ffffff;
 }
+
+:root {
+	--sl-font: 'BBC Reith Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'BBC Reith Serif', serif;
+}
