@@ -3,8 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://valbuilds.github.io',
-	base: '/bbcfanswiki',
+	site: 'https://bbcfanswiki.valbuilds.xyz',
 	integrations: [
 		starlight({
 			title: 'BBC Fans Wiki',
