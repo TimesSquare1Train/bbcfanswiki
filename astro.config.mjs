@@ -11,6 +11,9 @@ export default defineConfig({
 				'./src/bbcfans.css',
 				'./src/fonts/reith.css'
 			],
+			editLink: {
+				baseUrl: 'https://github.com/valbuilds/bbcfanswiki/edit/main/',
+			},
 			social: {
 				discord: 'https://discord.gg/PMQEnTxZxa',
 				github: 'https://github.com/valbuilds/bbcfanswiki'
