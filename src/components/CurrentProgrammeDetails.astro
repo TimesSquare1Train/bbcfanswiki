@@ -1,0 +1,40 @@
+---
+// js
+var noimage = ''
+const {name = '', image = '', presenter = '', on = '', at = '', debut = '', studio = ''} = Astro.props;
+if (image == '') {
+    noimage = 'No image provided.'
+}
+---
+<!-- html + js expressions -->
+<table>
+    <tr>
+        <th class="tabletop" colspan="2"><strong><i>{name}</i></strong></th>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <img class="round" src={image}>
+            <p>{noimage}</p>
+        </td>
+    </tr>
+    <tr>
+        <td><strong>Presenter(s):</strong></td>
+        <td>{presenter}</td>
+    </tr>
+    <tr>
+        <td><strong>Shown on</strong></td>
+        <td>{on}</td>
+    </tr>
+    <tr>
+        <td><strong>Shown at (UK Time)</strong></td>
+        <td>{at}</td>
+    </tr>
+    <tr>
+        <td><strong>Debut</strong></td>
+        <td>{debut}</td>
+    </tr>
+    <tr>
+        <td><strong>Current Studio</strong></td>
+        <td>{studio}</td>
+    </tr>
+</table>
