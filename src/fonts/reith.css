@@ -1,122 +1,123 @@
 /* BBC Reith Sans */
 @font-face {
     font-family: "BBC Reith Sans";
-    src: url('./sans/bold-italic.ttf') format('ttf');
+    src: url('./sans/bold-italic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 }
 @font-face {
     font-family: "BBC Reith Sans";
-    src: url('./sans/bold-normal.ttf') format('ttf');
+    src: url('./sans/bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: "BBC Reith Sans";
-    src: url('./sans/bolder-italic.ttf') format('ttf');
+    src: url('./sans/bolder-italic.woff') format('woff');
     font-weight: bolder;
     font-style: italic;
 }
 @font-face {
     font-family: "BBC Reith Sans";
-    src: url('./sans/bolder-normal.ttf') format('ttf');
+    src: url('./sans/bolder.woff') format('woff');
     font-weight: bolder;
     font-style: normal;
 }
 @font-face {
     font-family: "BBC Reith Sans";
-    src: url('./sans/light-italic.ttf') format('ttf');
+    src: url('./sans/light-italic.woff') format('woff');
     font-weight: light;
     font-style: italic;
 }
 @font-face {
     font-family: "BBC Reith Sans";
-    src: url('./sans/light-normal.ttf') format('ttf');
+    src: url('./sans/light.woff') format('woff');
     font-weight: light;
     font-style: normal;
 }
 @font-face {
     font-family: "BBC Reith Sans";
-    src: url('./sans/medium-italic.ttf') format('ttf');
+    src: url('./sans/medium-italic.woff') format('woff');
     font-weight: medium;
     font-style: italic;
 }
 @font-face {
     font-family: "BBC Reith Sans";
-    src: url('./sans/medium-normal.ttf') format('ttf');
+    src: url('./sans/medium.woff') format('woff');
     font-weight: medium;
     font-style: normal;
 }
 @font-face {
     font-family: "BBC Reith Sans";
-    src: url('./sans/normal-italic.ttf') format('ttf');
+    src: url('./sans/normal-italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
     font-family: "BBC Reith Sans";
-    src: url('./sans/normal-normal.ttf') format('ttf');
+    src: url('./sans/normal.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
 /* BBC Reith Serif */
 @font-face {
     font-family: "BBC Reith Serif";
-    src: url('./serif/bold-italic.ttf') format('ttf');
+    src: url('./serif/bold-italic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 }
 @font-face {
     font-family: "BBC Reith Serif";
-    src: url('./serif/bold-normal.ttf') format('ttf');
+    src: url('./serif/bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: "BBC Reith Serif";
-    src: url('./serif/bolder-italic.ttf') format('ttf');
+    src: url('./serif/bolder-italic.woff') format('woff');
     font-weight: bolder;
     font-style: italic;
 }
 @font-face {
     font-family: "BBC Reith Serif";
-    src: url('./serif/bolder-normal.ttf') format('ttf');
+    src: url('./serif/bolder.woff') format('woff');
     font-weight: bolder;
     font-style: normal;
 }
 @font-face {
     font-family: "BBC Reith Serif";
-    src: url('./serif/light-italic.ttf') format('ttf');
+    src: url('./serif/light-italic.woff') format('woff');
     font-weight: light;
     font-style: italic;
 }
 @font-face {
     font-family: "BBC Reith Serif";
-    src: url('./serif/light-normal.ttf') format('ttf');
+    src: url('./serif/light.woff') format('woff');
     font-weight: light;
     font-style: normal;
 }
 @font-face {
     font-family: "BBC Reith Serif";
-    src: url('./serif/medium-italic.ttf') format('ttf');
+    src: url('./serif/medium-italic.woff') format('woff');
     font-weight: medium;
     font-style: italic;
 }
 @font-face {
     font-family: "BBC Reith Serif";
-    src: url('./serif/medium-normal.ttf') format('ttf');
+    src: url('./serif/medium.woff') format('woff');
     font-weight: medium;
     font-style: normal;
 }
 @font-face {
     font-family: "BBC Reith Serif";
-    src: url('./serif/normal-italic.ttf') format('ttf');
+    src: url('./serif/normal-italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
     font-family: "BBC Reith Serif";
-    src: url('./serif/normal-normal.ttf') format('ttf');
+    src: url('./serif/normal.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
