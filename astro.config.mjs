@@ -12,14 +12,14 @@ export default defineConfig({
 				'./src/fonts/reith.css'
 			],
 			editLink: {
-				baseUrl: 'https://github.com/valbuilds/bbcfanswiki/edit/main/',
+				baseUrl: 'https://github.com/valbuilds/bbcfanswiki/edit/master/',
 			},
 			social: {
 				discord: 'https://discord.gg/PMQEnTxZxa',
 				github: 'https://github.com/valbuilds/bbcfanswiki'
 			},
 			sidebar: [
-				{ label: 'Explore', link: '/wiki/explore' },
+				{ label: 'Home', link: '/' },
 				{
 					label: 'Programmes',
 					items: [
